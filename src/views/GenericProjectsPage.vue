@@ -1,13 +1,26 @@
 <template>
   <div>
     <h1>{{ title }}</h1>
-    <div class="container border flex-row">
-      <ProjectCard
-        v-for="item in listings"
-        :key="`${item.name}`"
-        :listing="item"
-      />
-    </div>
+    <b-container class="border flex-row">
+      <b-row align-h="center" cols="3">
+        <ProjectCard
+          v-for="item in listings"
+          :key="`${item.name}`"
+          :listing="item"
+        />
+      </b-row>
+    </b-container>
+    <!-- <div>
+      Hash:
+      <div v-for="(key, idx) in keys" :key="key">
+        {{ key }} ::
+        {{
+          typeof values[idx] === "string"
+            ? values[idx]
+            : Object.keys(values[idx])
+        }}
+      </div>
+    </div> -->
   </div>
 </template>
 
@@ -20,15 +33,10 @@ export default Vue.extend({
   props: {
     title: String,
     listings: Array,
+    routeObj: Object,
   },
   components: { ProjectCard },
 });
 </script>
 
-<style scoped>
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-</style>
+<style scoped></style>

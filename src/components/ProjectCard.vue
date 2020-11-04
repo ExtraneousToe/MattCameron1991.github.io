@@ -42,10 +42,14 @@ export default Vue.extend({
     listing: Object,
   },
   filters: {
-    parseStatus: function(status) {
+    parseStatus: function(status: string) {
+      status = status.toLowerCase().replaceAll(/\s+/gi, "");
       switch (status) {
-        case "InDevelopment":
-        case "In Development":
+        case "complete":
+          return "Complete";
+        case "developmentceased":
+          return "Development Ceased";
+        case "indevelopment":
           return "In Development";
         default:
           return `[${status}]`;
@@ -58,17 +62,14 @@ export default Vue.extend({
 <style scoped>
 .flow-card {
   border: 1px solid rgb(10, 10, 10);
-  flex: 0 0 300px;
-  margin: 10px;
+  /* flex: 0 0 300px; */
+  /* margin: 10px; */
   box-sizing: border-box;
   padding: 5px;
+  margin: 5px;
 }
 
 .card-header {
   text-align: left;
-}
-
-h4 {
-  text-align: center;
 }
 </style>

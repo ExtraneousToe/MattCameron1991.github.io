@@ -15,45 +15,46 @@ const routes: Array<RouteConfig> = [
     path: "/",
     name: "Home",
     component: Home,
-    props: {
-      projects: ProjectData.projects
-    }
   },
   {
-    path: "/rpgtools",
+    path: "/rpgtools/:id?",
     name: "RPG Tools",
     component: GenericProjectsPage,
-    props: {
+    props: route => ({
       title: "RPG Page",
-      listings: ProjectData.rpgtools
-    }
+      listings: ProjectData.rpgtools,
+      routeObj: { ...route }
+    })
   },
   {
     path: "/projects",
     name: "Projects",
     component: GenericProjectsPage,
-    props: {
+    props: route => ({
       title: "Projects",
-      listings: ProjectData.projects
-    }
+      listings: ProjectData.projects,
+      routeObj: { ...route }
+    })
   },
   {
     path: "/games",
     name: "Games",
     component: GenericProjectsPage,
-    props: {
+    props: route => ({
       title: "Games",
-      listings: ProjectData.games
-    }
+      listings: ProjectData.games,
+      routeObj: { ...route }
+    })
   },
   {
     path: "/applications",
     name: "Applications",
     component: GenericProjectsPage,
-    props: {
+    props: route => ({
       title: "Applications",
-      listings: ProjectData.applications
-    }
+      listings: ProjectData.applications,
+      routeObj: { ...route }
+    })
   },
   {
     path: "/about",
