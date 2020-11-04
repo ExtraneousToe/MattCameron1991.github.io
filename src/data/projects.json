@@ -1,0 +1,133 @@
+{
+  "_template": {
+    "name": "",
+    "description": [],
+    "repoLink": "",
+    "extLink": "",
+    "status": "",
+    "statusNotes": "",
+    "languagesAndFrameworks": []
+  },
+  "rpgtools": [
+    {
+      "name": "Reactive RPG Tools",
+      "description": [
+        "Development started in 2020, when I started DMing.",
+        "A collection of references and eventually tools that I've made to suppliment my D&D games.",
+        "This was after working on a Blazor version of a similar tool. This was with the intention of learning ReactJS."
+      ],
+      "repoLink": "https://github.com/MattCameron1991/ReactiveRPGTools",
+      "extLink": "https://MattCameron1991.github.io/ReactiveRPGTools/",
+      "status": "InDevelopment",
+      "statusNotes": null,
+      "languagesAndFrameworks": ["Javascript", "ReactJS", "Redux"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Unity Tools",
+      "description": [
+        "Assembled over time, starting in ~2016.",
+        "A collection of tools made available through the Unity Package Manager"
+      ],
+      "repoLink": "https://github.com/MattCameron1991/Unity-Tools",
+      "extLink": "",
+      "status": "InDevelopment",
+      "statusNotes": "",
+      "languagesAndFrameworks": ["Unity", "C#"]
+    },
+    {
+      "name": "Maze Generator",
+      "description": [
+        "Initially developed in ~2015. Recently (2020) refactored.",
+        "This project is designed to make maze generation easier.",
+        "The eventual goal will be to make this a package that can be included using the Unity Package Manager."
+      ],
+      "repoLink": "https://github.com/MattCameron1991/MazeGenerator",
+      "extLink": "https://mattcameron1991.github.io/MazeGenerator/",
+      "status": "InDevelopment",
+      "statusNotes": "",
+      "languagesAndFrameworks": ["Unity", "C#"]
+    }
+  ],
+  "games": [
+    {
+      "name": "Pirate Arena",
+      "description": [
+        "Developed in late 2014.",
+        "Repo private due to assets used."
+      ],
+      "repoLink": "",
+      "extLink": "https://mattcameron1991.github.io/PirateArena/",
+      "status": "Complete",
+      "statusNotes": "Developed in Unity 5, some packages used previously now outdated. Some things broken.",
+      "languagesAndFrameworks": ["Unity", "C#"]
+    },
+    {
+      "name": "Space Goober Launcher",
+      "description": ["Developed in 2015.", "Repo private due to assets used."],
+      "repoLink": "",
+      "extLink": "https://mattcameron1991.github.io/SpaceGooberLauncher/",
+      "status": "Complete",
+      "statusNotes": "Developed in Unity 5, some packages used previously now outdated. Some things broken.",
+      "languagesAndFrameworks": ["Unity", "C#"]
+    },
+    {
+      "name": "Idle Nebulae Harvester",
+      "description": ["Developed in 2015.", "Repo private due to assets used."],
+      "repoLink": "",
+      "extLink": "https://mattcameron1991.github.io/IdleNebulaeHarvester/",
+      "status": "Complete",
+      "statusNotes": "Developed in Unity 5, some packages used previously now outdated. Some things broken.",
+      "languagesAndFrameworks": ["Unity", "C#"]
+    },
+    {
+      "name": "Crate Checker",
+      "description": ["Developed in 2015.", "Basically Mine Sweeper."],
+      "repoLink": "https://github.com/MattCameron1991/CrateChecker",
+      "extLink": "https://mattcameron1991.github.io/CrateChecker/",
+      "status": "Complete",
+      "statusNotes": "Developed in Unity 5, some packages used previously now outdated. Some things broken.",
+      "languagesAndFrameworks": ["Unity", "C#"]
+    }
+  ],
+  "applications": [
+    {
+      "name": "D&D Tools",
+      "description": [
+        "Development started in 2020, when I started DMing.",
+        "A collection of references and eventually tools that I've made to suppliment my D&D games."
+      ],
+      "repoLink": "https://github.com/MattCameron1991/BlazorDnDTools",
+      "extLink": "https://MattCameron1991.github.io/BlazorDnDTools/",
+      "status": "DevelopmentCeased",
+      "statusNotes": null,
+      "languagesAndFrameworks": ["C#", "Blazor"]
+    },
+    {
+      "name": "Melbourne Attractions",
+      "description": [
+        "Built using ReactJS.",
+        "Currently reads a json file of attractions around Melbourne and displays them using React components"
+      ],
+      "repoLink": "https://github.com/MattCameron1991/MelbourneAttractions",
+      "extLink": "https://MattCameron1991.github.io/MelbourneAttractions/",
+      "status": "InDevelopment",
+      "statusNotes": null,
+      "languagesAndFrameworks": ["C#", "Blazor"]
+    },
+    {
+      "name": "Reactive RPG Tools",
+      "description": [
+        "Development started in 2020, when I started DMing.",
+        "A collection of references and eventually tools that I've made to suppliment my D&D games.",
+        "This was after working on a Blazor version of a similar tool. This was with the intention of learning ReactJS."
+      ],
+      "repoLink": "https://github.com/MattCameron1991/ReactiveRPGTools",
+      "extLink": "https://MattCameron1991.github.io/ReactiveRPGTools/",
+      "status": "InDevelopment",
+      "statusNotes": null,
+      "languagesAndFrameworks": ["Javascript", "ReactJS", "Redux"]
+    }
+  ]
+}
